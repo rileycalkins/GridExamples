@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var selectedTab = 1
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView(selection: $selectedTab) {
+            LazyGridView()
+                .tabItem { HStack {
+                    Image(systemName: "circle")
+                    Text("Lazy")
+                }}.tag(1)
+            StaticGridView()
+                .tabItem { HStack {
+                    Image(systemName: "square")
+                    Text("Static")
+                } }.tag(2)
         }
-        .padding()
     }
 }
 

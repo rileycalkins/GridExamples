@@ -11,6 +11,23 @@
 		34DFF7CC2BDCB9C800D0A24A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7CB2BDCB9C800D0A24A /* ContentView.swift */; };
 		34DFF7CE2BDCB9CB00D0A24A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DFF7CD2BDCB9CB00D0A24A /* Assets.xcassets */; };
 		34DFF7D22BDCB9CB00D0A24A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DFF7D12BDCB9CB00D0A24A /* Preview Assets.xcassets */; };
+		34DFF7D92BDCB9D900D0A24A /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7D82BDCB9D900D0A24A /* Color+Extension.swift */; };
+		34DFF7DB2BDCBA2B00D0A24A /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7DA2BDCBA2B00D0A24A /* MockData.swift */; };
+		34DFF7DD2BDCBBE400D0A24A /* LazyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7DC2BDCBBE400D0A24A /* LazyGridView.swift */; };
+		34DFF7DF2BDCBBF300D0A24A /* StaticGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7DE2BDCBBF300D0A24A /* StaticGridView.swift */; };
+		34DFF7E12BDD1E3900D0A24A /* DebuggingModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7E02BDD1E3900D0A24A /* DebuggingModifiers.swift */; };
+		34DFF7E32BDD6E0000D0A24A /* NamedSFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7E22BDD6E0000D0A24A /* NamedSFX.swift */; };
+		34DFF7E52BDD6E2500D0A24A /* GridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7E42BDD6E2500D0A24A /* GridItemView.swift */; };
+		34DFF7E72BDD6E6F00D0A24A /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7E62BDD6E6F00D0A24A /* ViewModifiers.swift */; };
+		34DFF7E92BDD6EAC00D0A24A /* GridParameterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7E82BDD6EAC00D0A24A /* GridParameterView.swift */; };
+		34DFF7ED2BDD6F0800D0A24A /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7EC2BDD6F0700D0A24A /* CGFloat+Extensions.swift */; };
+		34DFF7EF2BDD6F2400D0A24A /* GridItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7EE2BDD6F2400D0A24A /* GridItemType.swift */; };
+		34DFF7F12BDD6F4B00D0A24A /* AlignmentTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7F02BDD6F4B00D0A24A /* AlignmentTypes.swift */; };
+		34DFF7F32BDD6F7200D0A24A /* GridSegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7F22BDD6F7200D0A24A /* GridSegmentPicker.swift */; };
+		34DFF7F52BDD6F9800D0A24A /* GridParameterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7F42BDD6F9800D0A24A /* GridParameterType.swift */; };
+		34DFF7F72BDD6FB600D0A24A /* GridType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7F62BDD6FB600D0A24A /* GridType.swift */; };
+		34DFF7F92BDD6FCD00D0A24A /* GridVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7F82BDD6FCD00D0A24A /* GridVM.swift */; };
+		34DFF7FC2BDD701300D0A24A /* GridItemButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DFF7FB2BDD701300D0A24A /* GridItemButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +37,23 @@
 		34DFF7CD2BDCB9CB00D0A24A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34DFF7CF2BDCB9CB00D0A24A /* GridExamples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GridExamples.entitlements; sourceTree = "<group>"; };
 		34DFF7D12BDCB9CB00D0A24A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34DFF7D82BDCB9D900D0A24A /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		34DFF7DA2BDCBA2B00D0A24A /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		34DFF7DC2BDCBBE400D0A24A /* LazyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridView.swift; sourceTree = "<group>"; };
+		34DFF7DE2BDCBBF300D0A24A /* StaticGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticGridView.swift; sourceTree = "<group>"; };
+		34DFF7E02BDD1E3900D0A24A /* DebuggingModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingModifiers.swift; sourceTree = "<group>"; };
+		34DFF7E22BDD6E0000D0A24A /* NamedSFX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedSFX.swift; sourceTree = "<group>"; };
+		34DFF7E42BDD6E2500D0A24A /* GridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemView.swift; sourceTree = "<group>"; };
+		34DFF7E62BDD6E6F00D0A24A /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		34DFF7E82BDD6EAC00D0A24A /* GridParameterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridParameterView.swift; sourceTree = "<group>"; };
+		34DFF7EC2BDD6F0700D0A24A /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		34DFF7EE2BDD6F2400D0A24A /* GridItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemType.swift; sourceTree = "<group>"; };
+		34DFF7F02BDD6F4B00D0A24A /* AlignmentTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentTypes.swift; sourceTree = "<group>"; };
+		34DFF7F22BDD6F7200D0A24A /* GridSegmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridSegmentPicker.swift; sourceTree = "<group>"; };
+		34DFF7F42BDD6F9800D0A24A /* GridParameterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridParameterType.swift; sourceTree = "<group>"; };
+		34DFF7F62BDD6FB600D0A24A /* GridType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridType.swift; sourceTree = "<group>"; };
+		34DFF7F82BDD6FCD00D0A24A /* GridVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridVM.swift; sourceTree = "<group>"; };
+		34DFF7FB2BDD701300D0A24A /* GridItemButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,11 @@
 			children = (
 				34DFF7C92BDCB9C800D0A24A /* GridExamplesApp.swift */,
 				34DFF7CB2BDCB9C800D0A24A /* ContentView.swift */,
+				34DFF7DA2BDCBA2B00D0A24A /* MockData.swift */,
+				34DFF7EB2BDD6EE000D0A24A /* GridGroup */,
+				34DFF7DE2BDCBBF300D0A24A /* StaticGridView.swift */,
+				34DFF7E22BDD6E0000D0A24A /* NamedSFX.swift */,
+				34DFF7EA2BDD6ECA00D0A24A /* Utilities */,
 				34DFF7CD2BDCB9CB00D0A24A /* Assets.xcassets */,
 				34DFF7CF2BDCB9CB00D0A24A /* GridExamples.entitlements */,
 				34DFF7D02BDCB9CB00D0A24A /* Preview Content */,
@@ -67,6 +106,42 @@
 				34DFF7D12BDCB9CB00D0A24A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34DFF7EA2BDD6ECA00D0A24A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				34DFF7E02BDD1E3900D0A24A /* DebuggingModifiers.swift */,
+				34DFF7F02BDD6F4B00D0A24A /* AlignmentTypes.swift */,
+				34DFF7D82BDCB9D900D0A24A /* Color+Extension.swift */,
+				34DFF7E62BDD6E6F00D0A24A /* ViewModifiers.swift */,
+				34DFF7EC2BDD6F0700D0A24A /* CGFloat+Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		34DFF7EB2BDD6EE000D0A24A /* GridGroup */ = {
+			isa = PBXGroup;
+			children = (
+				34DFF7DC2BDCBBE400D0A24A /* LazyGridView.swift */,
+				34DFF7F62BDD6FB600D0A24A /* GridType.swift */,
+				34DFF7F82BDD6FCD00D0A24A /* GridVM.swift */,
+				34DFF7FA2BDD6FFA00D0A24A /* GridItemGroup */,
+				34DFF7E82BDD6EAC00D0A24A /* GridParameterView.swift */,
+				34DFF7F42BDD6F9800D0A24A /* GridParameterType.swift */,
+				34DFF7EE2BDD6F2400D0A24A /* GridItemType.swift */,
+				34DFF7F22BDD6F7200D0A24A /* GridSegmentPicker.swift */,
+			);
+			path = GridGroup;
+			sourceTree = "<group>";
+		};
+		34DFF7FA2BDD6FFA00D0A24A /* GridItemGroup */ = {
+			isa = PBXGroup;
+			children = (
+				34DFF7E42BDD6E2500D0A24A /* GridItemView.swift */,
+				34DFF7FB2BDD701300D0A24A /* GridItemButtonStyle.swift */,
+			);
+			path = GridItemGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +215,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				34DFF7CC2BDCB9C800D0A24A /* ContentView.swift in Sources */,
+				34DFF7E52BDD6E2500D0A24A /* GridItemView.swift in Sources */,
+				34DFF7EF2BDD6F2400D0A24A /* GridItemType.swift in Sources */,
+				34DFF7F12BDD6F4B00D0A24A /* AlignmentTypes.swift in Sources */,
+				34DFF7E12BDD1E3900D0A24A /* DebuggingModifiers.swift in Sources */,
+				34DFF7DB2BDCBA2B00D0A24A /* MockData.swift in Sources */,
+				34DFF7FC2BDD701300D0A24A /* GridItemButtonStyle.swift in Sources */,
+				34DFF7F92BDD6FCD00D0A24A /* GridVM.swift in Sources */,
+				34DFF7DF2BDCBBF300D0A24A /* StaticGridView.swift in Sources */,
+				34DFF7E72BDD6E6F00D0A24A /* ViewModifiers.swift in Sources */,
+				34DFF7D92BDCB9D900D0A24A /* Color+Extension.swift in Sources */,
 				34DFF7CA2BDCB9C800D0A24A /* GridExamplesApp.swift in Sources */,
+				34DFF7DD2BDCBBE400D0A24A /* LazyGridView.swift in Sources */,
+				34DFF7F52BDD6F9800D0A24A /* GridParameterType.swift in Sources */,
+				34DFF7F32BDD6F7200D0A24A /* GridSegmentPicker.swift in Sources */,
+				34DFF7F72BDD6FB600D0A24A /* GridType.swift in Sources */,
+				34DFF7E92BDD6EAC00D0A24A /* GridParameterView.swift in Sources */,
+				34DFF7ED2BDD6F0800D0A24A /* CGFloat+Extensions.swift in Sources */,
+				34DFF7E32BDD6E0000D0A24A /* NamedSFX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
